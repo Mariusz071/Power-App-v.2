@@ -1,0 +1,95 @@
+.form-wrapper {
+  padding: 2rem;
+  margin-top: 4rem;
+  min-height: 100%;
+}
+
+.plan-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $default-font-size;
+  font-weight: bold;
+
+  &__workout-name,
+  &__plan-name {
+    margin-top: 2rem;
+    font-weight: bold;
+
+    &-input {
+      text-align: center;
+      font-size: $default-font-size;
+      color: $color-white;
+      font-weight: bold;
+      height: 5rem;
+      width: 80%;
+      padding: 1rem 2rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid $color-white;
+      transition: all .2s;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .label-content-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    align-items: center;
+    }
+
+  &__workout-number {
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &-input {
+      text-align: center;
+      font-size: $default-font-size;
+      height: 5rem;
+      width: 20%;
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid $color-white;
+      transition: all .2s;
+      color: $color-white;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &-btn {
+      width: 70%;
+      font-size: 2rem;
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.25rem 2rem;
+      border-radius: 5rem;
+      border: none;
+      background-color: $color-primary;
+      color: $color-white;
+      transition: all .1s;
+      margin-top: 1rem;
+
+      &:hover {
+        box-shadow: 0 1rem 2rem rgba($color-black,0.2);
+      }
+
+      &:active {
+        box-shadow: 0 0.5rem 1rem rgba($color-black,0.2);
+      }
+    }
+  }
+}

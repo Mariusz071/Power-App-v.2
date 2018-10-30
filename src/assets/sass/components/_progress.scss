@@ -1,0 +1,32 @@
+.progress-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: $color-dark-grey-3;
+}
+
+h2 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+
+
+.spinner-animation {
+  font-size: 5rem;
+  margin: 2rem auto;
+
+  i {
+    color: $color-dark-grey-3;
+    animation: loading 1s 0s infinite ease-in;
+  }
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
