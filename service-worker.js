@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Power-App-v.2/precache-manifest.9c335e21a4b6867eeb70ea8896f46a2e.js"
+  "/Power-App-v.2/precache-manifest.96b746ef258616adad1d4a359cfeace7.js"
 );
 
 workbox.clientsClaim();
