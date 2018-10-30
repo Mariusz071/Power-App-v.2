@@ -2,7 +2,7 @@
   "name": "power-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Mariusz071.github.io/PowerApp",
+  "homepage": "http://Mariusz071.github.io/Power-App-v.2",
   "dependencies": {
     "node-sass": "^4.9.4",
     "react": "^16.5.2",
