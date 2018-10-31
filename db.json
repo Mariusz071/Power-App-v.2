@@ -1,3 +1,130 @@
 {
-  "Workouts": []
+  "Workouts": [
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Flat bench press",
+      "setsNumber": 4,
+      "id": 1
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Incline bench press",
+      "setsNumber": 3,
+      "id": 2
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Butterflies",
+      "setsNumber": 3,
+      "id": 3
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Flat bench press",
+      "setsNumber": 4,
+      "id": 4
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Incline bench press",
+      "setsNumber": 3,
+      "id": 5
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Butterflies",
+      "setsNumber": 3,
+      "id": 6
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Legs and triceps",
+      "exerciseName": "Front squats",
+      "setsNumber": 4,
+      "id": 7
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Legs and triceps",
+      "exerciseName": "Leg press",
+      "setsNumber": 4,
+      "id": 8
+    },
+    {
+      "planName": "Mass",
+      "workoutName": "Legs and triceps",
+      "exerciseName": "French press",
+      "setsNumber": 4,
+      "id": 9
+    },
+    {
+      "planName": "Cardio",
+      "workoutName": "FBW",
+      "exerciseName": "Pull ups",
+      "setsNumber": 6,
+      "id": 10
+    },
+    {
+      "planName": "Cardio",
+      "workoutName": "FBW",
+      "exerciseName": "Press ups",
+      "setsNumber": 4,
+      "id": 11
+    },
+    {
+      "planName": "Cardio",
+      "workoutName": "Punching bag",
+      "exerciseName": "3min rounds",
+      "setsNumber": 12,
+      "id": 12
+    },
+    {
+      "planName": "Cardio",
+      "workoutName": "Chest and shoulders",
+      "exerciseName": "Incline bench press",
+      "setsNumber": 3,
+      "id": 13
+    },
+    {
+      "planName": "asdasd",
+      "workoutName": "asd",
+      "exerciseName": "asd2",
+      "setsNumber": 222,
+      "id": 14
+    },
+    {
+      "planName": "Ciezka masa",
+      "workoutName": "Klata plecy barki",
+      "exerciseName": "Klata plasko",
+      "setsNumber": 3,
+      "id": 15
+    },
+    {
+      "planName": "Ciezka masa",
+      "workoutName": "klata barki",
+      "exerciseName": "Klata skos gora",
+      "setsNumber": 3,
+      "id": 16
+    },
+    {
+      "planName": "masa",
+      "workoutName": "klata barki",
+      "exerciseName": "klata",
+      "setsNumber": 2,
+      "id": 17
+    },
+    {
+      "planName": "zxc",
+      "workoutName": "zxc",
+      "exerciseName": "zxc",
+      "setsNumber": 2,
+      "id": 18
+    }
+  ]
 }

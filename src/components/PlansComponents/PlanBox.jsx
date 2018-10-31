@@ -3,10 +3,10 @@ import React, {Component} from 'react';
 
 class PlanBox extends Component {
     state = {
-        data: this.props.data
+        data: this.props.id
     };
     deleteHandler = () => {
-        fetch(`http://localhost:4005/Workouts/${this.props.id}`, {
+        fetch(`http://localhost:4005/Workouts/${this.state.data}`, {
             method: 'delete'
         }).then(response =>
             response.json().then(json => {

@@ -18,21 +18,29 @@ class Plans extends Component {
             throw new Error('Blad');
         })
             .then(data => {
+                const newData = {};
+                data.forEach(item => {
+                    if(typeof newData[item.planName] === 'undefined') {
+                        newData[item.planName] = [];
+                    }
+                    newData[item.planName].push(item);
+                });
                 this.setState({
-                    workoutData: data
+                    workoutData: newData
                 })
             })
-    };
+
+        };
 
     render() {
         return (
             <div className="section__main">
                 <div className="boxes-container">
                     <div className="current-plan"><h2>Yours plans</h2></div>
-                    {this.state.workoutData.map((el, i) => {
-                        return(
-                            <div key={i} className="boxes-wrapper">
-                                <PlanBox data={this.state.workoutData} getPlans={this.getPlans} id={el.id} planName={<h2>{el.planName}</h2>}/>
+                    {Object.entries(this.state.workoutData).map(([key, value]) => {
+                        return (
+                            <div className="boxes-wrapper">
+                                <PlanBox  getPlans={this.getPlans} planData={value} id={key} planName={<h2>{key}</h2>}/>
                             </div>
                         )
                     })}

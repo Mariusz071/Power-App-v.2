@@ -6,7 +6,8 @@ class CreatePlanForm extends Component {
         workoutsChange: '',
         exercises: [],
         workoutName: '',
-        planName: ''
+        planName: '',
+        planArray: []
     };
 
     handleGetExercises = (array) => {
@@ -34,6 +35,8 @@ class CreatePlanForm extends Component {
     };
 
 
+
+
     submitHandler = () => {
         const data = this.state.exercises;
         data.forEach((el) => {
@@ -52,7 +55,9 @@ class CreatePlanForm extends Component {
         this.setState ({
             workoutName: '',
             planName: '',
+            planArray: {exercises:  [...this.state.exercises]}
         });
+        console.log(this.state.planArray);
     };
 
 
